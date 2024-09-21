@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d49cde88d0ea64ca439e8eb1ca3013, type: 3}
+  m_Name: LaserRain
+  m_EditorClassIdentifier: 
+  <DisplayName>k__BackingField: Laser Rain
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 0ad2337320c1b5841ba3ceb24de6e91a,
+    type: 3}
+  <Description>k__BackingField: Unleash a dazzling cascade of laser beams from above,
+    raining down with precision and intensity. Each laser carries destructive energy,
+    targeting foes with pinpoint accuracy. Whether in combat or as a dazzling display
+    of power, the Laser Rain ability illuminates the battlefield, leaving opponents
+    in awe and disarray.
+  <Name>k__BackingField: 2
+  <UnlockData>k__BackingField:
+    <Level>k__BackingField: 35
+    <Gold>k__BackingField: 15000
+    <Unlocked>k__BackingField: 1
+  <Prefab>k__BackingField: {fileID: 7478731271839673279, guid: 74e4a0ffafd3c834f831b07705f87114,
+    type: 3}
+  <AbilityData>k__BackingField:
+    <DamageMultiplier>k__BackingField: 5.5
+    <HitCount>k__BackingField: 16
+    <Cooldown>k__BackingField: 15
+    <CurrentCooldown>k__BackingField: 0
+  <SpawnDistance>k__BackingField: 7.5
+  <Moving>k__BackingField: 0
+  <MovingSpeed>k__BackingField: 5
+  <MaxDistance>k__BackingField: 200
+  <InputAction>k__BackingField: {fileID: 0}

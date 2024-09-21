@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4720009602690860686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1845845891185004678}
+  - component: {fileID: 2791724033904649439}
+  - component: {fileID: 8739045382631820122}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1845845891185004678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720009602690860686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2791724033904649439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720009602690860686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a4a2420a9b45b42915b70c8d83f646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Sword>k__BackingField: {fileID: 4776562928594500993, guid: 18f9bbcd0e9063b47b0127de9c32368a,
+    type: 3}
+  <HitEffect>k__BackingField: {fileID: 5024009746357069194, guid: 9a4741f4723b8614e87685f6692f4c2c,
+    type: 3}
+  <LevelUpEffect>k__BackingField: {fileID: 1399491476850481373, guid: aef225b5ec5c0354aa3b73732ff6f25c,
+    type: 3}
+  <DeadEffect>k__BackingField: {fileID: 1329845292236604, guid: 5eb03be0d274e6f4d9b32e6e9398ab0b,
+    type: 3}
+  <LockCrosshair>k__BackingField: {fileID: 4538457065857827125, guid: 03104d7243dbdc74dbf1fd06f2a73bce,
+    type: 3}
+  <DamagePopupText>k__BackingField: {fileID: 2851982241570135841, guid: accd49079b787ef4896555bc29858a88,
+    type: 3}
+  <LevelUpPopupText>k__BackingField: {fileID: 2851982241570135841, guid: ee4f6a0640c5d0148aeea83aa18ee844,
+    type: 3}
+  <DropPopupText>k__BackingField: {fileID: 2851982241570135841, guid: 4c9d7273896bcd348bafcf475af02190,
+    type: 3}
+  <AreaWarning>k__BackingField: {fileID: 8931806074972483032, guid: 7422006a4f1c9a544bb886f5b81b146f,
+    type: 3}
+  <AreaText>k__BackingField: {fileID: 7499187614505972442, guid: 005944604a2f36449b3f02493e74d9db,
+    type: 3}
+  <WinCanvas>k__BackingField: {fileID: 2398999518523349870, guid: 6f8e7a066e3cf264eb7139e69c37eccc,
+    type: 3}
+  <CheatPopup>k__BackingField: {fileID: 8931806074972483032, guid: 32f0859c863517343ab43c94b0142473,
+    type: 3}
+  <AbilityRebindUI>k__BackingField: {fileID: 430986636736955388, guid: bb8771c329bfbda48aca470ab032d507,
+    type: 3}
+  <AbilityShopUI>k__BackingField: {fileID: 430986636736955388, guid: a3f689245e7181c478b39716a72ab5bb,
+    type: 3}
+  <ChangeAbilityShopUI>k__BackingField: {fileID: 430986636736955388, guid: 3f20fefef62e8834780a57b98d04831d,
+    type: 3}
+  <GoldSprite>k__BackingField: {fileID: 21300000, guid: 93b5b28db06f8d2439c780ec3aeb28d2,
+    type: 3}
+--- !u!114 &8739045382631820122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720009602690860686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfaa86a41caf7249ab71b81f2eccdf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

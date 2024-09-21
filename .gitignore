@@ -1,0 +1,24 @@
+/Assets/*
+
+!/Assets/Scripts/
+!/Assets/Scripts/**
+!/Assets/Scenes/
+!/Assets/Scenes/**
+!/Assets/ScriptableObjects/
+!/Assets/ScriptableObjects/**
+!/Assets/Animations/
+!/Assets/Animations/**
+!/Assets/CameraController/
+!/Assets/CameraController/**
+!/Assets/InputActions/
+!/Assets/InputActions/**
+!/Assets/Materials/
+!/Assets/Materials/**
+!/Assets/Models/
+!/Assets/Models/**
+!/Assets/Maze Component/
+!/Assets/Maze Component/**
+!/Assets/Resources/
+!/Assets/Resources/**
+
+/Library/

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb66c4bdb3be5834f93e1fdfbabf6ad0, type: 3}
+  m_Name: FireElemental
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: 3
+  <GroundedData>k__BackingField:
+    <BaseSpeed>k__BackingField: 4
+    <RotationSpeed>k__BackingField: 0.05
+    <WalkData>k__BackingField:
+      <SpeedModifier>k__BackingField: 0.35
+      <PatrolRange>k__BackingField: 10
+      <PatrolWaypointCount>k__BackingField: 5
+      <PatrolCooldown>k__BackingField: 3
+    <RunData>k__BackingField:
+      <SpeedModifier>k__BackingField: 0.75
+  <AirborneData>k__BackingField:
+    <FlyingData>k__BackingField:
+      <SpeedModifier>k__BackingField: 1.5
+    <EnableFlying>k__BackingField: 0
+  <CombatData>k__BackingField:
+    <AggroRange>k__BackingField: 15
+    <FlyingAggroRange>k__BackingField: 25
+    <ChaseCooldown>k__BackingField: 0.5
+    <AttackIntervalCooldown>k__BackingField: 2
+    <TakeDamageAnimationCooldown>k__BackingField: 0.5
+    <AttackData>k__BackingField:
+    - <DamageMultiplier>k__BackingField: 1
+      <HitCount>k__BackingField: 1
+      <AttackRange>k__BackingField: 3
+      <AttackCooldown>k__BackingField: 2

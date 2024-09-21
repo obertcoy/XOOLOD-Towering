@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7689783873005242203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7689783873005242202}
+  - component: {fileID: 662440747988625536}
+  m_Layer: 0
+  m_Name: SpawnMinions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7689783873005242202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7689783873005242203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &662440747988625536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7689783873005242203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbf726f55555dc4e8bc0568f11bcdc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PrefabList>k__BackingField:
+  - {fileID: 130416, guid: 9e90528eacc8586479db4b7ca5b7d134, type: 3}
+  - {fileID: 174418, guid: 9817d7de15d7b1a40baa777f78e207b9, type: 3}
+  - {fileID: 130964, guid: 403cc8c6dd136894285e5f536bbe9981, type: 3}
+  - {fileID: 170346, guid: 641628e33422e85479b61e88a1658526, type: 3}
+  <Radius>k__BackingField: 10
+  <MinionsCount>k__BackingField: 2

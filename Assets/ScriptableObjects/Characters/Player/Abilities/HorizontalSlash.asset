@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d49cde88d0ea64ca439e8eb1ca3013, type: 3}
+  m_Name: HorizontalSlash
+  m_EditorClassIdentifier: 
+  <DisplayName>k__BackingField: Horizontal Slash
+  <Sprite>k__BackingField: {fileID: 21300000, guid: d8108e50be9cf7f49878337929803edd,
+    type: 3}
+  <Description>k__BackingField: 'In a swift and precise motion, the wielder executes
+    a powerful horizontal strike, cutting through enemies in a wide arc. '
+  <Name>k__BackingField: 1
+  <UnlockData>k__BackingField:
+    <Level>k__BackingField: 5
+    <Gold>k__BackingField: 4000
+    <Unlocked>k__BackingField: 1
+  <Prefab>k__BackingField: {fileID: 359498620133744004, guid: 6514f8a817aeb544cbffdc890de86d7f,
+    type: 3}
+  <AbilityData>k__BackingField:
+    <DamageMultiplier>k__BackingField: 2.25
+    <HitCount>k__BackingField: 4
+    <Cooldown>k__BackingField: 5
+    <CurrentCooldown>k__BackingField: 0
+  <SpawnDistance>k__BackingField: 1.5
+  <Moving>k__BackingField: 1
+  <MovingSpeed>k__BackingField: 20
+  <MaxDistance>k__BackingField: 50
+  <InputAction>k__BackingField: {fileID: 0}
